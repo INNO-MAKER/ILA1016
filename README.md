@@ -1,4 +1,4 @@
-# ILA16
+# ILA1016
 ## Hardware Description
 
 
@@ -19,3 +19,13 @@ With an eye towards logic analyzers, this tutorial will focus mostly on PulseVie
   - [Linux](https://sigrok.org/wiki/Downloads#Binaries_and_distribution_packages)
 
 - Windows users can run the installer executable (pulseview-NIGHTLY-32bit-static-release-installer.exe) to install the software on your machine. The Mac installer is a binary disk image (DMG), which can be dragged into your Applications folder, for example.
+
+## Setting up the Software/Hardware
+
+- With PulseView open, plug in your USB Logic Analyzer. You should see faint red and green LEDs illuminate under the sticker.
+
+  - Click the "\" dropdown menu.
+  - Select fx2lafw (generic driver for FX2 based LAs) from the dropdown.
+  - Select USB for the interface
+  - Click Scan for devices using driver above
+  - Select "Logic with 8 channels" and click "OK"
